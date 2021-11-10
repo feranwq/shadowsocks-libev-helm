@@ -1,0 +1,19 @@
+apiVersion: v2
+appVersion: v3.3.5
+type: application
+dependencies:
+- name: common
+  repository: https://charts.bitnami.com/bitnami
+  tags:
+  - bitnami-common
+  version: 1.x.x
+description: shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes. It is a port of shadowsocks created by @clowwindy maintained by @madeye and @linusyang.
+keywords:
+- shadowsocks
+maintainers:
+- email: containers@bitnami.com
+  name: Bitnami
+- email: feranwq@gmail.com
+  name: feranwq
+name: shadowsocks-libev
+version: 0.1.0
