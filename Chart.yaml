@@ -16,4 +16,4 @@ maintainers:
 - email: feranwq@gmail.com
   name: feranwq
 name: shadowsocks-libev
-version: 0.1.0
+version: 0.1.1
