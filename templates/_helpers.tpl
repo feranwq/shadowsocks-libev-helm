@@ -12,7 +12,7 @@ Return the proper shadowsocks(R) image name
 Return the proper Docker Image Registry Secret Names
 */}}
 {{- define "shadowsocks.imagePullSecrets" -}}
-{{- include "common.images.pullSecrets" (dict "images" (list .Values.image .Values.clientImage .Values.volumePermissions.image) "global" .Values.global) -}}
+{{- include "common.images.pullSecrets" (dict "images" (list .Values.image) "global" .Values.global) -}}
 {{- end -}}
 
 {{/*
